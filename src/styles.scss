@@ -1,0 +1,181 @@
+@import url(./assets/presets/containers.css);
+@import url(./assets/presets/fonts.css);
+
+:root {
+  --primary-color: #fba523;
+  --secondary-color: #a66504;
+  --black-color: #09090d;
+  --white-color: #ffffff;
+
+  --main-font: "montserrat", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--black-color);
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+//custom
+.primary-btn {
+  border-radius: 50px;
+  border: 1px solid transparent;
+  padding: 8px 14px;
+
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+
+  transition: all .3s;
+}
+
+.yellow-btn{
+  background: rgb(166, 101, 4);
+  background: linear-gradient(
+    90deg,
+    rgba(166, 101, 4, 1) 0%,
+    rgba(251, 165, 35, 1) 100%
+  );
+  color: var(--white-color);
+}
+
+.yellow-btn:hover {
+  background: rgba(251, 165, 35, 1);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 165, 35, 1) 0%
+    rgba(166, 101, 4, 1) 100%,
+  );
+}
+
+.transparent-btn{
+  background: transparent;
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+}
+
+.transparent-btn:hover {
+  background: var(--white-color);
+  color: var(--black-color);
+}
+
+.highlight-text {
+  color: var(--primary-color);
+}
+
+.white-text {
+  color: var(--white-color);
+}
+
+.text-1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  font-family: var(--main-font);
+
+  @media screen and (max-width: 640px) {
+    font-family: "spartan-bold", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+.text-2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 62px;
+  font-family: var(--main-font);
+
+  @media screen and (max-width: 640px) {
+    font-family: "spartan-regular", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.text-3 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  font-family: var(--main-font);
+
+  @media screen and (max-width: 640px) {
+    font-family: "spartan-light", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.text-4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: var(--main-font);
+
+  @media screen and (max-width: 640px) {
+    font-family: "spartan-bold", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+.text-5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: var(--main-font);
+
+  @media screen and (max-width: 640px) {
+    font-family: "spartan-bold", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.text-6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--main-font);
+
+  @media screen and (max-width: 640px) {
+    font-family: "spartan-regular", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
