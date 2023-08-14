@@ -5,6 +5,16 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  backdrop-filter: blur(10px);
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 30%,
+      rgba(0, 0, 0, 0.30155812324929976) 100%
+    ),
+    url(../../../../assets/images/main-banner.jpg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 h1,
