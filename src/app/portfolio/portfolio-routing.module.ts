@@ -16,6 +16,7 @@ const routes: Routes = [
       { path: 'experience', component: ExperienceComponent },
       { path: 'skills', component: SkillsComponent },
       { path: 'my-work', component: MyWorkComponent },
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', redirectTo: 'home' },
     ],
   },
