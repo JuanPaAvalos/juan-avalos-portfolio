@@ -1,0 +1,21 @@
+section{
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  max-width: 752px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+h5,
+h2,
+p {
+  text-align: center;
+}
