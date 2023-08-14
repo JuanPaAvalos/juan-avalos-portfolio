@@ -95,6 +95,12 @@ h6 {
 }
 
 @media screen and (max-width: 1024px) {
+  section {
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
   .contact-container {
     position: relative;
     display: flex;
