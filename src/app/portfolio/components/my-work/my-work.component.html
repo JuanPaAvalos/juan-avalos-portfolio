@@ -1,1 +1,46 @@
-<p>my-work works!</p>
+<section>
+  <div class="container content">
+
+    <div class="titles">
+      <h5 class="text-5 highlight-text">My work</h5>
+      <h2 class="text-2 white-text">Latest Projects</h2>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="card" *ngFor="let project of projects">
+        <div class="card-background"></div>
+        <div class="card-content">
+
+          <div class="img-container">
+            <img [src]="project.img" alt="project image" />
+          </div>
+
+          <div class="text-container">
+            <p class="white-text text-3">{{ project.name | titlecase }}</p>
+            <a class="highlight-text text-5"></a>
+            <p class="project-description">
+              {{ project.description }}
+            </p>
+            <div class="btns-container">
+              <a
+                *ngIf="project.siteLink"
+                [href]="project.siteLink"
+                target="_blank"
+              >
+                <button class="primary-btn yellow-btn">
+                  View Project Online
+                </button>
+              </a>
+              <a [href]="project.githubLink" target="_blank">
+                <button class="primary-btn transparent-btn">
+                  View on GitHub
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
