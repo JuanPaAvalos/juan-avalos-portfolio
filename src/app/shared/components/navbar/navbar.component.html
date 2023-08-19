@@ -26,7 +26,6 @@
     <li *ngFor="let link of siteLinks">
       <a
         [routerLink]="link.route"
-        [routerLinkActive]="'router-link-active'"
         (click)="showMenu = !showMenu"
         ><p class="text-1">{{ link.name }}</p></a
       >
