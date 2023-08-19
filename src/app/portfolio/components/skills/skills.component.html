@@ -1,1 +1,21 @@
-<p>skills works!</p>
+<section>
+  <div class="container content">
+    <h5 class="text-5 highlight-text">Skills</h5>
+    <h2 class="text-2 white-text">Technologies I Can Work With</h2>
+
+    <div class="cards-container">
+      <div *ngFor="let skill of skills">
+        <div class="card">
+          <div class="no-gradient-background">
+            <div class="img-container">
+              <img [src]="skill.img" alt="" class="skill-img" />
+            </div>
+            <p class="skill-name white-text">{{ skill.name }}</p>
+            <p class="skill-description white-text">{{ skill.description }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="spacer"></div>
+    </div>
+  </div>
+</section>
