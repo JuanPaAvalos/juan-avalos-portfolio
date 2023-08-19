@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ContactLink } from '../../interfaces/contactLink.interface';
 
 @Component({
   selector: 'app-main-banner',
@@ -8,7 +9,7 @@ import { Component } from '@angular/core';
 
 
 export class MainBannerComponent {
-  public contactLinks: contactLink[]= [
+  public contactLinks: ContactLink[]= [
     {
       alt:'juan avalos - github',
       img: 'assets/icons/social-media/github.png',
@@ -25,11 +26,4 @@ export class MainBannerComponent {
       link: 'https://www.instagram.com/juan_deitri/',
     },
   ]
-}
-
-
-interface contactLink {
-  alt: string,
-  img: string,
-  link: string,
 }
