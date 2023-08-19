@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { PrimaryBtnComponent } from './components/primary-btn/primary-btn.component';
 
 
 
 @NgModule({
   declarations: [
-    NavbarComponent
+    NavbarComponent,
+    PrimaryBtnComponent
   ],
   imports: [
     CommonModule,
@@ -15,7 +17,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
     RouterLinkActive
   ],
   exports: [
-    NavbarComponent
+    NavbarComponent,
+    PrimaryBtnComponent
   ]
 })
 export class SharedModule { }
