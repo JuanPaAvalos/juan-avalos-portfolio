@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Project } from '../../interface/project.interface';
+import { Project } from '../../interfaces/project.interface';
 
 @Component({
   selector: 'app-my-work',
