@@ -11,17 +11,17 @@ export class MainBannerComponent {
   public contactLinks: contactLink[]= [
     {
       alt:'juan avalos - github',
-      img: 'assets/icons/github.png',
+      img: 'assets/icons/social-media/github.png',
       link: 'https://github.com/JuanPaAvalos',
     },
     {
       alt:'juan avalos - Linkedin',
-      img: 'assets/icons/linkedin.png',
+      img: 'assets/icons/social-media/linkedin.png',
       link: 'https://www.linkedin.com/in/juan-pablo-avalos/',
     },
     {
       alt:'juan avalos - instagram',
-      img: 'assets/icons/instagram.png',
+      img: 'assets/icons/social-media/instagram.png',
       link: 'https://www.instagram.com/juan_deitri/',
     },
   ]
