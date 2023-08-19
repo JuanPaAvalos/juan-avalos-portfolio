@@ -1,17 +1,14 @@
 <section>
   <div class="container content">
-
     <div class="titles">
       <h5 class="text-5 highlight-text">My work</h5>
       <h2 class="text-2 white-text">Latest Projects</h2>
     </div>
 
     <div class="cards-container">
-
       <div class="card" *ngFor="let project of projects">
         <div class="card-background"></div>
         <div class="card-content">
-
           <div class="img-container">
             <img [src]="project.img" alt="project image" />
           </div>
@@ -27,10 +24,11 @@
                 *ngIf="project.siteLink"
                 [href]="project.siteLink"
                 target="_blank"
+                style="text-decoration: none;"
               >
-                <button class="primary-btn yellow-btn">
-                  View Project Online
-                </button>
+                <shared-primary-btn
+                  [btnText]="'View Project Online'"
+                ></shared-primary-btn>
               </a>
               <a [href]="project.githubLink" target="_blank">
                 <button class="primary-btn transparent-btn">
