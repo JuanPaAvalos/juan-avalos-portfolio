@@ -1,3 +1,5 @@
+
+
 .main-content {
   display: flex;
   justify-content: center;
@@ -14,7 +16,7 @@
   position: fixed;
   top: 0;
   z-index: 1;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #8C8C8C;
 }
 
 .nav-links {
@@ -132,4 +134,8 @@
   ul li:hover a {
     color: var(--primary-color);
   }
+}
+
+.router-link-active{
+  color: var(--primary-color)!important;
 }

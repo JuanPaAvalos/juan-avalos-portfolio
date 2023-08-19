@@ -2,7 +2,7 @@
   <nav class="navbar-desktop">
     <ul class="nav-links" [ngClass]="showMenu ? 'showMenu' : ''">
       <li *ngFor="let link of siteLinks">
-        <a [routerLink]="link.route" routerLinkActive="router-link-active">
+        <a [routerLink]="link.route" [routerLinkActive]="'router-link-active'">
           {{ link.name }}
         </a>
       </li>
@@ -26,7 +26,7 @@
     <li *ngFor="let link of siteLinks">
       <a
         [routerLink]="link.route"
-        routerLinkActive="router-link-active"
+        [routerLinkActive]="'router-link-active'"
         (click)="showMenu = !showMenu"
         ><p class="text-1">{{ link.name }}</p></a
       >
