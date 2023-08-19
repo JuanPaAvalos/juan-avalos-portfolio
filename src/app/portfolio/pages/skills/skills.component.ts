@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Skill } from '../../interfaces/skill.interface';
 
 @Component({
   selector: 'app-skills',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.scss'],
 })
 export class SkillsComponent {
-  public skills: skill[] = [
+  public skills: Skill[] = [
     {
       name: 'Angular',
       img: 'assets/icons/skills/angular.png',
@@ -38,10 +39,4 @@ export class SkillsComponent {
       description: 'Lorem Ipsum is simply dummy text.',
     },
   ];
-}
-
-interface skill {
-  name: string;
-  img: string;
-  description: string;
 }
