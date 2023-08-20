@@ -16,7 +16,7 @@
     </div>
   </div>
   <div class="contact-container">
-    <a *ngFor="let link of contactLinks" [href]="link.link">
+    <a *ngFor="let link of contactLinks" [href]="link.link" target="_blank">
      <button class="contact-link-btn">
       <img [src]="link.img" [alt]="link.alt" class="contact-icon">
      </button>
