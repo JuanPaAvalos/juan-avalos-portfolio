@@ -1,25 +1,48 @@
 <section>
   <div class="container content">
     <div class="img-container">
-      <img src="assets/images/juan-avalos.webp" alt="" class="avatar-img" />
+      <img
+        src="assets/images/juan-avalos.webp"
+        alt="juan avalos photo"
+        class="avatar-img"
+      />
     </div>
-    <h4 class="text-4 highlight-text">Hello, I’m Juan Pablo Rodríguez</h4>
+    <h4 class="text-4 highlight-text">¡Hola! Soy Juan Pablo Avalos</h4>
     <h1 class="text-1 white-text">Front End Developer</h1>
     <h6 class="text-6 white-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sagittis
-      mauris risus, at vehicula lectus consectetur non. Suspendisse ipsum velit,
-      aliquam non tempor sit amet, vulputate at diam.
+      <strong>Ingeniero en software</strong> con habilidades para el desarrollo
+      de páginas y aplicaciones web del lado del <strong>frontend</strong> y
+      <strong>backend</strong>.
     </h6>
+
+    <h6 class="text-6 white-text">
+      Mi enfoque esta en <strong>crear proyectos</strong> nuevos y emocionantes
+      que marquen la diferencia. Mi principal objetivo es
+      <strong> seguir creciendo como persona y profesional </strong> siempre
+      dispuesto a aprender de cualquier fuente posible. Si quieres realizar algun proyecto <strong>¡trabajemos juntos!</strong>
+    </h6>
+
     <div class="btns-container">
-      <shared-primary-btn [btnText]="'Contactar'"></shared-primary-btn>
-      <button class="primary-btn transparent-btn">Acerca de mi</button>
+      <a
+        href="https://wa.me/529984935945"
+        target="_blank"
+        rel="contact juan avalos"
+      >
+        <shared-primary-btn [btnText]="'Contactar'"></shared-primary-btn>
+      </a>
+      <button
+        class="primary-btn transparent-btn"
+        routerLink="/portfolio/about-me"
+      >
+        Acerca de mi
+      </button>
     </div>
   </div>
   <div class="contact-container">
     <a *ngFor="let link of contactLinks" [href]="link.link" target="_blank">
-     <button class="contact-link-btn">
-      <img [src]="link.img" [alt]="link.alt" class="contact-icon">
-     </button>
+      <button class="contact-link-btn">
+        <img [src]="link.img" [alt]="link.alt" class="contact-icon" />
+      </button>
     </a>
   </div>
 </section>
