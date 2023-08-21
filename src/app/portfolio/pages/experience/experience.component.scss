@@ -28,6 +28,14 @@ h2 {
   background-color: rgb(72, 0, 0);
 }
 
+.card-wrapper{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   width: 620px;
   display: flex;
