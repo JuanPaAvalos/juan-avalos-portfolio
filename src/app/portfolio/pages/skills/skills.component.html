@@ -4,17 +4,20 @@
     <h2 class="text-2 white-text">Technologies I Can Work With</h2>
 
     <div class="cards-container">
-      <div *ngFor="let skill of skills">
-        <div class="card">
+      <div *ngFor="let skill of skills, let i = index">
+        <div class="card" (mouseenter)="isHover(i)" [ngClass]="i == hoveredElementIndex ? 'activeCard':''">
           <div class="no-gradient-background">
             <div class="img-container">
               <img [src]="skill.img" alt="" class="skill-img" />
             </div>
-            <p class="skill-name white-text">{{ skill.name }}</p>
+            <p class="skill-name white-text">{{ skill.name }} {{i}}</p>
             <p class="skill-description white-text">{{ skill.description }}</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <p class="text-2 highlight-text">
+    {{hoveredElementIndex}}
+  </p>
 </section>

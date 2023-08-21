@@ -39,4 +39,11 @@ export class SkillsComponent {
       description: 'Lorem Ipsum is simply dummy text.',
     },
   ];
+
+
+  public hoveredElementIndex: number = 1;
+
+  isHover(elementIndex: number){
+    this.hoveredElementIndex = elementIndex;
+  }
 }

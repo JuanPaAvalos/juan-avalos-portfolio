@@ -85,7 +85,7 @@ h2{
   text-align: center;
 }
 
-.card:hover {
+.activeCard {
   background: rgb(251, 165, 35);
   background: linear-gradient(
     180deg,
@@ -94,10 +94,17 @@ h2{
   );
 }
 
-.card:hover > .no-gradient-background {
+.activeCard > .no-gradient-background {
   background: transparent;
 }
 
-.card:hover > .no-gradient-background > .img-container {
+.activeCard > .no-gradient-background > .img-container {
   padding-top: 0;
+}
+
+
+@media screen and (max-width: 640px) {
+  section {
+    padding-top: 100px;
+  }
 }
