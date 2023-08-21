@@ -1,1 +1,19 @@
-<p>experience works!</p>
+<section>
+  <div class="container content">
+    <div class="titles">
+      <h5 class="text-5 highlight-text">Lorem ipsum</h5>
+      <h2 class="text-2 white-text">My Work Experiences</h2>
+    </div>
+
+    <div class="cards-container">
+      <div class="card" *ngFor="let work of works">
+        <p class="white-text text-3">{{ work.workPlace | titlecase }}</p>
+        <a class="white-text text-6">  {{ work.description }} </a>
+
+        <div class="img-container">
+          <img [src]="work.img" alt="project image" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
