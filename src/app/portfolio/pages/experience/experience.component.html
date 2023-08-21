@@ -8,11 +8,17 @@
     <div class="cards-container">
       <div class="card-wrapper" *ngFor="let work of works">
         <div class="card">
-          <p class="white-text text-3">{{ work.workPlace | titlecase }}</p>
-          <a class="white-text text-6"> {{ work.description }} </a>
+          <div class="card-indicator">
+            <div class="point"></div>
+            <div class="line"></div>
+          </div>
+          <div class="card-content">
+            <p class="white-text text-3">{{ work.workPlace | titlecase }}</p>
+            <a class="white-text text-6"> {{ work.description }} </a>
 
-          <div class="img-container">
-            <img [src]="work.img" alt="project image" />
+            <div class="img-container">
+              <img [src]="work.img" alt="project image" />
+            </div>
           </div>
         </div>
       </div>
