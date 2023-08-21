@@ -1,12 +1,11 @@
-section{
-
+section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.content{
+.content {
   max-width: 752px;
   display: flex;
   flex-direction: column;
@@ -15,7 +14,6 @@ section{
 }
 
 h5,
-h2,
-p {
+h2 {
   text-align: center;
 }
