@@ -16,14 +16,14 @@ export class MainBannerComponent {
       link: 'https://github.com/JuanPaAvalos',
     },
     {
+      alt:'juan avalos - instagram',
+      img: 'assets/icons/social-media/mail.png',
+      link: 'mailto:juanpablordz0524@gmail.com',
+    },
+    {
       alt:'juan avalos - Linkedin',
       img: 'assets/icons/social-media/linkedin.png',
       link: 'https://www.linkedin.com/in/juan-pablo-avalos/',
-    },
-    {
-      alt:'juan avalos - instagram',
-      img: 'assets/icons/social-media/instagram.png',
-      link: 'https://www.instagram.com/juan_deitri/',
     },
   ]
 }
