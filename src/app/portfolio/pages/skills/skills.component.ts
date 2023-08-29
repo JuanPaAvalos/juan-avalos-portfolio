@@ -9,34 +9,34 @@ import { Skill } from '../../interfaces/skill.interface';
 export class SkillsComponent {
   public skills: Skill[] = [
     {
-      name: 'Angular',
+      name: 'HTML y CSS',
       img: 'assets/icons/skills/angular.png',
-      description: 'Lorem Ipsum is simply dummy text.',
+      description: '',
     },
     {
       name: 'Angular',
       img: 'assets/icons/skills/angular.png',
-      description: 'Lorem Ipsum is simply dummy text.',
+      description: '',
     },
     {
-      name: 'Angular',
+      name: 'Node JS',
       img: 'assets/icons/skills/angular.png',
-      description: 'Lorem Ipsum is simply dummy text.',
+      description: '',
     },
     {
-      name: 'Angular',
+      name: 'Express',
       img: 'assets/icons/skills/angular.png',
-      description: 'Lorem Ipsum is simply dummy text.',
+      description: '',
     },
     {
-      name: 'Angular',
+      name: 'MongoDB',
       img: 'assets/icons/skills/angular.png',
-      description: 'Lorem Ipsum is simply dummy text.',
+      description: '',
     },
     {
-      name: 'Angular',
+      name: 'GitHub/GitLab',
       img: 'assets/icons/skills/angular.png',
-      description: 'Lorem Ipsum is simply dummy text.',
+      description: '',
     },
   ];
 

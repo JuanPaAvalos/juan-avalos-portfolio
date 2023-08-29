@@ -10,7 +10,8 @@
     "build:href": "ng build --base-href ./",
     "delete:docs": "del docs",
     "copy:dist": "copyfiles dist/juan-avalos-portfolio/* ./docs -f",
-    "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist"
+    "copy:dist-assets": "copyfiles dist/juan-avalos-portfolio/assets/**/* ./docs/assets",
+    "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist && npm run copy:dist-assets"
   },
   "private": true,
   "dependencies": {
