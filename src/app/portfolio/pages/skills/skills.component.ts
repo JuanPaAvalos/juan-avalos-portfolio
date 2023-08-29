@@ -10,7 +10,7 @@ export class SkillsComponent {
   public skills: Skill[] = [
     {
       name: 'HTML y CSS',
-      img: 'assets/icons/skills/angular.png',
+      img: 'assets/icons/skills/html-logo.webp',
       description: '',
     },
     {
@@ -20,22 +20,22 @@ export class SkillsComponent {
     },
     {
       name: 'Node JS',
-      img: 'assets/icons/skills/angular.png',
+      img: 'assets/icons/skills/node-logo.webp',
       description: '',
     },
     {
       name: 'Express',
-      img: 'assets/icons/skills/angular.png',
+      img: 'assets/icons/skills/ts-logo.webp',
       description: '',
     },
     {
       name: 'MongoDB',
-      img: 'assets/icons/skills/angular.png',
+      img: 'assets/icons/skills/mongo-logo.webp',
       description: '',
     },
     {
       name: 'GitHub/GitLab',
-      img: 'assets/icons/skills/angular.png',
+      img: 'assets/icons/skills/github-logo.webp',
       description: '',
     },
   ];

@@ -15,7 +15,7 @@ export class ExperienceComponent {
       Socket.IO</strong> utilizando Git Hub como manejador de versiones. Desde entonces partícipe activamente en área de
       desarrollo en diversas <strong>páginas y aplicaciones web</strong> utilizando el MEAN stack y tecnologías como WordPress y
       Laravel. Actualmente, me encuentro en el área de CI ayudando al <strong>mantenimiento y mejora de proyectos</strong>.`,
-      img: 'assets/icons/skills/angular.png',
+      img: 'assets/icons/works/dapper-technologies-logo.webp',
     },
     {
       workPlace: 'Capital 28',
@@ -25,7 +25,7 @@ export class ExperienceComponent {
       utilizando diferentes plantillas Esta aplicación contaba con funciones como autocompletar los mensajes con la
       información de cada cliente y un sistema de registro por cada envió de mensajes.
       `,
-      img: 'assets/icons/skills/angular.png',
+      img: 'assets/icons/works/capital-28-logo.webp',
     },
     // {
     //   workPlace: 'Mapper',
