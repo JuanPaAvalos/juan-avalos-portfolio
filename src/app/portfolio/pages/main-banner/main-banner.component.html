@@ -5,6 +5,8 @@
         src="assets/images/juan-avalos.webp"
         alt="juan avalos photo"
         class="avatar-img"
+        width="200px" height="200px"
+        loading="lazy"
       />
     </div>
     <h4 class="text-4 highlight-text">¡Hola! Soy Juan Pablo Avalos</h4>
@@ -16,10 +18,10 @@
     </h6>
 
     <h6 class="text-6 white-text">
-      Mi enfoque esta en <strong>crear proyectos</strong> nuevos y emocionantes
+      Mi enfoque está en <strong>crear proyectos</strong> nuevos y emocionantes
       que marquen la diferencia. Mi principal objetivo es
-      <strong> seguir creciendo como persona y profesional </strong> siempre
-      dispuesto a aprender de cualquier fuente posible. Si quieres realizar algun proyecto <strong>¡trabajemos juntos!</strong>
+      <strong> seguir creciendo como persona y profesional </strong>, siempre
+      dispuesto a aprender de cualquier fuente posible. Si quieres realizar algún proyecto <strong>¡trabajemos juntos!</strong>
     </h6>
 
     <div class="btns-container">
@@ -34,14 +36,14 @@
         class="primary-btn transparent-btn"
         routerLink="/portfolio/about-me"
       >
-        Acerca de mi
+        Acerca de mí
       </button>
     </div>
   </div>
   <div class="contact-container">
     <a *ngFor="let link of contactLinks" [href]="link.link" target="_blank">
       <button class="contact-link-btn">
-        <img [src]="link.img" [alt]="link.alt" class="contact-icon" />
+        <img [src]="link.img" [alt]="link.alt" class="contact-icon" loading="lazy"/>
       </button>
     </a>
   </div>

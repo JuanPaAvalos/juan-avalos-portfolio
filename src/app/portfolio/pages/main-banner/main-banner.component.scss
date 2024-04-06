@@ -89,8 +89,10 @@ h6 {
 
 .contact-link-btn:hover {
   border: 2px solid var(--primary-color);
-  img {
+  .contact-icon {
     transform: scale(1.1);
+    filter: invert(20%) sepia(20%) saturate(90) hue-rotate(344deg)
+      brightness(102%) contrast(101%);
   }
 }
 

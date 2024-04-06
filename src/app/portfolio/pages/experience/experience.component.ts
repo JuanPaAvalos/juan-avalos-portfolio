@@ -21,9 +21,9 @@ export class ExperienceComponent {
       workPlace: 'Capital 28',
       description: `Empresa dedicada al desarrollo web para diferentes proyectos inmobiliarios. <br><br>
       Realice prácticas profesionales desarrollando el front end en el framework de <strong>Vue Nuxt</strong> y la librería de estilos de
-      <strong>Vuetify</strong> de una <strong>aplicación web para el envió de mensajes</strong> por correo electrónico o WhatsApp a clientes
+      <strong>Vuetify</strong> de una <strong>aplicación web para el envío de mensajes</strong> por correo electrónico o WhatsApp a clientes
       utilizando diferentes plantillas Esta aplicación contaba con funciones como autocompletar los mensajes con la
-      información de cada cliente y un sistema de registro por cada envió de mensajes.
+      información de cada cliente y un sistema de registro por cada envío de mensajes.
       `,
       img: 'assets/icons/works/capital-28-logo.webp',
     },
