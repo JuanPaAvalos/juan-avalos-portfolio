@@ -10,11 +10,11 @@ export class NavbarComponent {
   public showMenu: boolean = false;
 
   public siteLinks = [
-    { name: 'Inicio', route: 'portfolio/home' },
-    { name: 'Sobre Mi', route: 'portfolio/about-me' },
-    { name: 'Experiencia', route: 'portfolio/experience' },
-    { name: 'Habilidades', route: 'portfolio/skills' },
-    { name: 'Portafolio', route: 'portfolio/my-work' },
+    { name: 'Inicio', route: 'portfolio/inicio' },
+    { name: 'Sobre Mi', route: 'portfolio/sobre-mi' },
+    { name: 'Experiencia', route: 'portfolio/experiencia-laboral' },
+    { name: 'Habilidades', route: 'portfolio/mis-habilidades' },
+    { name: 'Portafolio', route: 'portfolio/mis-proyectos' },
   ];
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
