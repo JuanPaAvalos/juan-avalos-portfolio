@@ -4,6 +4,7 @@ section {
   justify-content: center;
   align-items: center;
   padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 .content {
@@ -30,10 +31,11 @@ h2{
 .cards-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 190px);
+  grid-template-columns: repeat(auto-fit, minmax(190px, 0));
   justify-content: center;
   justify-items: center;
   gap: 16px;
+
 }
 
 .card {
@@ -51,7 +53,7 @@ h2{
   flex-direction: column;
   justify-content: space-evenly;
   gap: 10px;
-  background: #000000;
+  background: var(--dark-gary-color);
   position: relative;
   transition: all 0.3s;
 }
@@ -63,10 +65,10 @@ h2{
   transition: padding 0.3s;
 }
 
-.img-container skill-img {
+.img-container .skill-img {
   object-fit: contain;
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 }
 
 .skill-name {
@@ -106,5 +108,19 @@ h2{
 @media screen and (max-width: 640px) {
   section {
     padding-top: 100px;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 0));
+  }
+
+  .card {
+    width: 140px;
+    height:200px;
+  }
+
+  .img-container .skill-img {
+    width: 60px;
+    height: 60px;
   }
 }

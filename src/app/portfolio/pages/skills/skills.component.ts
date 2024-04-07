@@ -34,7 +34,7 @@ export class SkillsComponent {
       description: '',
     },
     {
-      name: 'GitHub/GitLab',
+      name: 'GitHub / GitLab',
       img: 'assets/icons/skills/github-logo.webp',
       description: '',
     },
