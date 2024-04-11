@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url('../fonts/montserrat/Montserrat-VariableFont_wght.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'spartan-regular';
+  src: url('../fonts/spartan/Spartan-Regular.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'spartan-bold';
+  src: url('../fonts/spartan/Spartan-Bold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'spartan-light';
+  src: url('../fonts/spartan/Spartan-Light.ttf');
+  font-display: swap;
+}
