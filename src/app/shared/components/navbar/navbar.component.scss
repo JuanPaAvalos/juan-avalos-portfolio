@@ -32,6 +32,7 @@
 
 .navbar-desktop-dark{
   background-color: var(--black-color);
+  border: none;
 }
 
 .nav-links {
@@ -83,8 +84,12 @@
     height: 60px;
     justify-content: end;
     background-color: black;
+    border: none;
   }
 
+  .nav-links-container {
+    display: none;
+  }
   .nav-links {
     display: none;
   }

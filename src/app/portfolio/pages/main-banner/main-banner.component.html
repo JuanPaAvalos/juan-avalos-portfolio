@@ -1,28 +1,22 @@
-<section class="animate__animated animate__fadeIn animate__faster">
+<section class="animate__animated animate__fadeIn animate__faster" id="home">
   <div class="container content">
     <div class="img-container">
       <img
         src="assets/images/juan-avalos.webp"
         alt="juan avalos photo"
         class="avatar-img"
-        width="200px" height="200px"
+        width="170px"
+        height="170px"
         loading="lazy"
       />
     </div>
     <h1 class="text-4 highlight-text">¡Hola! Soy Juan Avalos</h1>
     <h2 class="text-1 white-text">Front End Developer</h2>
-    <h3 class="text-6 white-text">
-      <strong>Ingeniero en software</strong> con habilidades para el desarrollo
-      de páginas y aplicaciones web del lado del <strong>frontend</strong> y
-      <strong>backend</strong>.
-    </h3>
-
-    <h3 class="text-6 white-text">
-      Mi enfoque está en <strong>crear proyectos</strong> nuevos y emocionantes
-      que marquen la diferencia. Mi principal objetivo es
-      <strong> seguir creciendo como persona y profesional </strong>, siempre
-      dispuesto a aprender de cualquier fuente posible. Si quieres realizar algún proyecto <strong>¡trabajemos juntos!</strong>
-    </h3>
+    <p class="text-6 white-text">
+      <strong>Ingeniero en software</strong> enfocado en el desarrollo de
+      páginas y aplicaciones web, con hbailidades en programación de
+      <strong>Frontend y Backend</strong>
+    </p>
 
     <div class="btns-container">
       <a
@@ -32,18 +26,20 @@
       >
         <shared-primary-btn [btnText]="'Contactar'"></shared-primary-btn>
       </a>
-      <button
-        class="primary-btn transparent-btn"
-        routerLink="/portfolio/about-me"
-      >
-        Acerca de mí
-      </button>
+      <a href="#about-me">
+        <button class="primary-btn transparent-btn">Acerca de mí</button>
+      </a>
     </div>
   </div>
   <div class="contact-container">
     <a *ngFor="let link of contactLinks" [href]="link.link" target="_blank">
       <button class="contact-link-btn">
-        <img [src]="link.img" [alt]="link.alt" class="contact-icon" loading="lazy"/>
+        <img
+          [src]="link.img"
+          [alt]="link.alt"
+          class="contact-icon"
+          loading="lazy"
+        />
       </button>
     </a>
   </div>

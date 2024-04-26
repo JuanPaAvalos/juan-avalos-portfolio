@@ -7,6 +7,7 @@ import { ExperienceComponent } from './pages/experience/experience.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { MainBannerComponent } from './pages/main-banner/main-banner.component';
 import { SharedModule } from '../shared/shared.module';
+import { HomePageComponent } from './pages/home-page/home-page.component';
 
 
 
@@ -16,7 +17,8 @@ import { SharedModule } from '../shared/shared.module';
     AboutMeComponent,
     ExperienceComponent,
     SkillsComponent,
-    MyWorkComponent
+    MyWorkComponent,
+    HomePageComponent
   ],
   imports: [
     CommonModule,

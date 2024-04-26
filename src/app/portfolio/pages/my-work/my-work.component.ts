@@ -9,6 +9,13 @@ import { Project } from '../../interfaces/project.interface';
 export class MyWorkComponent {
   public projects: Project[] = [
     {
+      name: 'Nexcent | Landing Page',
+      description: 'Landing page desarrollada para mostrar mis habilidades en el desarrollo de paginas web en aspectos como diseño responsivo y cumplimineto de metricas de Google Page Speed',
+      githubLink: 'https://github.com/JuanPaAvalos/nexcent-prueba-tecnica',
+      img: 'assets/images/projects/nexcent.webp',
+      siteLink: 'https://juanpaavalos.github.io/nexcent-prueba-tecnica/',
+    },
+    {
       name: 'Gifs App',
       description: 'Aplicación para poder visualizar gifs utilizando peticiones http a un servicio de gifs y utilizando funciones como local storage y servicios de Angular.',
       githubLink: 'https://github.com/JuanPaAvalos/GifsApp',

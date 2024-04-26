@@ -10,11 +10,13 @@ export class ExperienceComponent {
     {
       workPlace: 'Dapper Technologies',
       description: `Empresa dedicada al desarrollo web a la medida, mantenimiento y mejora de proyectos propios o de terceros. <br><br>
-      Comenzando como parte de mis prácticas profesionales, trabaje en el<strong> desarrollo de una PWA de un juego de
-      póker</strong> con funciones de multijugador en tiempo real utilizando <strong>Angular, Node JS, Express, MongoDB, Firebase y
-      Socket.IO</strong> utilizando Git Hub como manejador de versiones. Desde entonces partícipe activamente en área de
-      desarrollo en diversas <strong>páginas y aplicaciones web</strong> utilizando el MEAN stack y tecnologías como WordPress y
-      Laravel. Actualmente, me encuentro en el área de CI ayudando al <strong>mantenimiento y mejora de proyectos</strong>.`,
+      Actualmente me desempeño en el área de CI/CD, mejorando diversos proyectos con tecnologías como Angular, Node JS, Express, MongoDB, Firebase ademas de  WordPress y
+      Laravel. Tambien trabajo en el equipo de marketing utilizando la suit de herramientas Goggle como Ads o Tag Manager. <br><br>
+
+      Como proyectos destacables: <br>
+      <strong>Desarrolle de una PWA de un juego de póker</strong> con funciones de multijugador en tiempo real<br>
+      <strong>Refactorización de un cotizador de seguros universitarios</strong> al que se integrarón varias funciones <br> <strong>reconstrucción de una plataforma de manejo de documentos </strong> para el control de obras de una reconocida empresa de calefacción y ventilación. <br>
+      <strong>partícipar activamente </strong> en el desarrollo en diversas páginas y aplicaciones web`,
       img: 'assets/icons/works/dapper-technologies-logo.webp',
     },
     {
