@@ -8,7 +8,7 @@
           <!-- <a [routerLink]="link.route" [routerLinkActive]="'router-link-active'" [routerLinkActiveOptions]={exact:true}>
             {{ link.name }}
           </a> -->
-          <a (click)="onClick(link.route)" [routerLinkActive]="'router-link-active'" [routerLinkActiveOptions]={exact:true}>
+          <a [href]="link.route" [routerLinkActive]="'router-link-active'" [routerLinkActiveOptions]={exact:true}>
             {{ link.name }}
           </a>
         </li>
@@ -33,7 +33,8 @@
   <ul>
     <li *ngFor="let link of siteLinks">
       <a
-        (click)="onClick(link.route); showMenu = !showMenu"
+        (click)="showMenu = !showMenu"
+        [href]="link.route"
         ><p class="text-1">{{ link.name }}</p></a
       >
     </li>
