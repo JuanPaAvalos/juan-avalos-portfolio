@@ -1,4 +1,7 @@
-<section class="animate__animated animate__fadeIn animate__faster" id="experience">
+<section
+  class="animate__animated animate__fadeIn animate__faster"
+  id="experience"
+>
   <div class="container content">
     <div class="titles">
       <h5 class="text-5 highlight-text">Conoce acerca de</h5>
@@ -8,22 +11,25 @@
     <div class="cards-container">
       <div class="card-wrapper" *ngFor="let work of works">
         <div class="card">
-          <div class="card-indicator">
+          <!-- <div class="card-indicator">
             <div class="point"></div>
             <div class="line"></div>
-          </div>
+          </div> -->
           <div class="card-content">
-            <p class="white-text text-3">{{ work.workPlace | titlecase }}</p>
-            <p class="white-text text-6" [innerHTML]="work.description"></p>
-
+            <!-- <p class="white-text text-3">{{ work.workPlace | titlecase }}</p> -->
             <div class="img-container">
-              <img [src]="work.img" alt="work image" />
+              <img
+                [src]="work.img"
+                alt="work image"
+                height="70px"
+                width="200px"
+              />
             </div>
+            <p class="white-text text-6 work-description" [innerHTML]="work.description"></p>
           </div>
         </div>
       </div>
-      <div class="scroll-spacer">
-      </div>
+      <!-- <div class="scroll-spacer"></div> -->
     </div>
   </div>
 </section>
