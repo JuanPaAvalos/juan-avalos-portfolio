@@ -1,14 +1,16 @@
 <div class="main-content">
-
   <nav class="navbar-desktop">
-
     <div class="nav-links-container">
       <ul class="nav-links" [ngClass]="showMenu ? 'showMenu' : ''">
         <li *ngFor="let link of siteLinks">
           <!-- <a [routerLink]="link.route" [routerLinkActive]="'router-link-active'" [routerLinkActiveOptions]={exact:true}>
             {{ link.name }}
           </a> -->
-          <a [href]="link.route" [routerLinkActive]="'router-link-active'" [routerLinkActiveOptions]={exact:true}>
+          <a
+            [href]="link.route"
+            [routerLinkActive]="'router-link-active'"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
             {{ link.name }}
           </a>
         </li>
@@ -32,9 +34,7 @@
   </div>
   <ul>
     <li *ngFor="let link of siteLinks">
-      <a
-        (click)="showMenu = !showMenu"
-        [href]="link.route"
+      <a (click)="showMenu = !showMenu; goTo(link.route)" [href]="link.route"
         ><p class="text-1">{{ link.name }}</p></a
       >
     </li>

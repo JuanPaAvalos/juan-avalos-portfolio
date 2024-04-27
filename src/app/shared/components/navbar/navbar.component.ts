@@ -35,18 +35,18 @@ export class NavbarComponent {
     }
   }
 
-  // public onClick(path: string): void {
-  //   if (path.includes('#')) {
-  //     this.router.navigate(['/']);
-  //     if (isPlatformBrowser(this.platformId)) {
-  //       setTimeout(() => {
-  //         let element = document.querySelector(path) as HTMLElement;
-  //         let topOfElement = element.offsetTop - 20;
-  //         window.scroll({ top: topOfElement, behavior: 'smooth' });
-  //       }, 0);
-  //     }
-  //   } else {
-  //     this.router.navigate([path]);
-  //   }
-  // }
+  public goTo(path: string): void {
+    if (path.includes('#')) {
+      this.router.navigate(['/']);
+      if (isPlatformBrowser(this.platformId)) {
+        setTimeout(() => {
+          let element = document.querySelector(path) as HTMLElement;
+          let topOfElement = element.offsetTop - 20;
+          window.scroll({ top: topOfElement, behavior: 'smooth' });
+        }, 0);
+      }
+    } else {
+      this.router.navigate([path]);
+    }
+  }
 }
