@@ -19,15 +19,15 @@ export class SkillsComponent {
       description: '',
     },
     {
-      name: 'HTML',
+      name: 'HTML, CSS & SASS',
       img: 'assets/icons/skills/html-logo.webp',
       description: '',
     },
-    {
-      name: 'CSS & SASS',
-      img: 'assets/icons/skills/scss-logo.webp',
-      description: '',
-    },
+    // {
+    //   name: 'CSS & SASS',
+    //   img: 'assets/icons/skills/scss-logo.webp',
+    //   description: '',
+    // },
     {
       name: 'TypeScript',
       img: 'assets/icons/skills/ts-logo.webp',
@@ -56,6 +56,11 @@ export class SkillsComponent {
     {
       name: 'GitHub / GitLab',
       img: 'assets/icons/skills/github-logo.webp',
+      description: '',
+    },
+    {
+      name: 'Google Ads Suite',
+      img: 'assets/icons/skills/google-ads-logo.webp',
       description: '',
     },
   ];
