@@ -9,28 +9,48 @@ import { Skill } from '../../interfaces/skill.interface';
 export class SkillsComponent {
   public skills: Skill[] = [
     {
-      name: 'HTML y CSS',
-      img: 'assets/icons/skills/html-logo.webp',
+      name: 'React',
+      img: 'assets/icons/skills/react-logo.webp',
       description: '',
     },
     {
       name: 'Angular',
-      img: 'assets/icons/skills/angular.png',
+      img: 'assets/icons/skills/angular-logo.webp',
       description: '',
     },
     {
-      name: 'Node JS',
+      name: 'HTML',
+      img: 'assets/icons/skills/html-logo.webp',
+      description: '',
+    },
+    {
+      name: 'CSS & SASS',
+      img: 'assets/icons/skills/scss-logo.webp',
+      description: '',
+    },
+    {
+      name: 'TypeScript',
+      img: 'assets/icons/skills/ts-logo.webp',
+      description: '',
+    },
+    {
+      name: 'Node JS & Express',
       img: 'assets/icons/skills/node-logo.webp',
       description: '',
     },
     {
-      name: 'Express',
-      img: 'assets/icons/skills/ts-logo.webp',
+      name: 'Dot Net',
+      img: 'assets/icons/skills/net-logo.webp',
       description: '',
     },
     {
       name: 'MongoDB',
       img: 'assets/icons/skills/mongo-logo.webp',
+      description: '',
+    },
+    {
+      name: 'Supabase',
+      img: 'assets/icons/skills/supabase-logo.webp',
       description: '',
     },
     {
